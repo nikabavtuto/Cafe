@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width,initial-scale=1" name="viewport" />
+  <title>
+    Resource Coffee House
+  </title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header" id="home">
+    <a class="logo" href="#home">
+      Resource
+      <small>
+        COFFEE HOUSE
+      </small>
+    </a>
+    <nav id="nav">
+      <a href="#favorite">
+        Favorite coffee
+      </a>
+      <a href="#about">
+        About
+      </a>
+      <a href="#app">
+        Mobile app
+      </a>
+      <a href="#contact">
+        Contact us
+      </a>
+    </nav>
+    <div class="actions">
+      <button aria-label="Change theme" class="theme" id="theme">
+        ☼ / ☾
+      </button>
+      <a href="#menu">
+        Menu ☕
+      </a>
+      <button aria-label="Open menu" class="hamburger" id="hamburger">
+        ☰
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="hero">
+      <div class="heroText">
+        <span class="eyebrow">
+          YOUR COZY COFFEE HOUSE
+        </span>
+        <h1>
+          <i>
+            Enjoy
+          </i>
+          premium
+          <br />
+          coffee at our
+          <br />
+          charming cafe
+        </h1>
+        <p>
+          With its inviting atmosphere and delicious coffee options, Resource is the perfect place to relax, meet
+          friends and enjoy a little moment for yourself.
+        </p>
+        <a class="button" href="#menu">
+          Explore menu &nearrow;
+        </a>
+      </div>
+    </section>
+    <section class="section favorite" id="favorite">
+      <span class="eyebrow">
+        MADE WITH LOVE
+      </span>
+      <h2>
+        Choose your
+        <i>
+          favorite
+        </i>
+        coffee
+      </h2>
+      <div class="featured">
+        <button aria-label="Previous" class="arrow" id="prev">
+          &lsaquo;
+        </button>
+        <img alt="Iced coffee" id="featureImg"
+          src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&amp;fit=crop&amp;w=700&amp;q=85" />
+        <button aria-label="Next" class="arrow" id="next">
+          &rsaquo;
+        </button>
+      </div>
+      <div class="featureInfo">
+        <h3 id="featureName">
+          S&rsquo;mores Frappuccino
+        </h3>
+        <p id="featureDesc">
+          Creamy iced coffee with a smooth finish and a little sweetness.
+        </p>
+        <b id="featurePrice">
+          $5.50
+        </b>
+        <div class="dots" id="dots">
+        </div>
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <h2>
+        Resource is
+        <i>
+          the perfect and cozy place
+        </i>
+        where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.
+      </h2>
+      <div class="gallery">
+        <img alt="Cozy cafe"
+          src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&amp;fit=crop&amp;w=900&amp;q=85" />
+        <img alt="Coffee preparation"
+          src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&amp;fit=crop&amp;w=900&amp;q=85" />
+        <img alt="Cafe interior" src="./1.jpg" />
+        <img alt="Friends at a cafe"
+          src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&amp;fit=crop&amp;w=900&amp;q=85" />
+      </div>
+    </section>
+    <section class="section menu" id="menu">
+      <span class="eyebrow">
+        FIND YOUR NEW FAVORITE
+      </span>
+      <h2>
+        Behind each of our cups
+        <br />
+        hides an
+        <i>
+          amazing surprise
+        </i>
+      </h2>
+      <div class="filters">
+        <button class="filter active" data-category="Coffee">
+          ☕ Coffee
+        </button>
+        <button class="filter" data-category="Tea">
+          🍵 Tea
+        </button>
+        <button class="filter" data-category="Dessert">
+          🍰 Dessert
+        </button>
+      </div>
+      <div class="products" id="products">
+      </div>
+    </section>
+    <section class="section app" id="app">
+      <div>
+        <span class="eyebrow">
+          YOUR FAVORITES, ONE TAP AWAY
+        </span>
+        <h2>
+          <i>
+            Download
+          </i>
+          our app
+          <br />
+          to start ordering
+        </h2>
+        <p>
+          Discover the menu, save your favorite drinks and order ahead. Your next coffee break is just a tap away.
+        </p>
+        <div class="store">
+          <a href="#app">
+            ●
+            <span>
+              <small>
+                Download on the
+              </small>
+              <b>
+                App Store
+              </b>
+            </span>
+          </a>
+          <a href="#app">
+            ▶
+            <span>
+              <small>
+                GET IT ON
+              </small>
+              <b>
+                Google Play
+              </b>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="phones">
+        <div class="phone back">
+          <b>
+            Good morning!
+          </b>
+          <p>
+            Choose your coffee
+          </p>
+          <div class="mini">
+          </div>
+          <div class="mini">
+          </div>
+          <div class="mini">
+          </div>
+        </div>
+        <div class="phone front">
+          <img alt="Coffee"
+            onerror="this.src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&amp;fit=crop&amp;w=400&amp;q=80'"
+            src="https://images.unsplash.com/photo- latte?auto=format&amp;fit=crop&amp;w=400&amp;q=80" />
+          <b>
+            Caramel latte
+          </b>
+          <p>
+            Rich espresso and milk
+          </p>
+          <button>
+            Order now ＋
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section" id="contact">
+    <div>
+      <h2>
+        Sip, Savor, Smile.
+      </h2>
+      <h2>
+        <i>
+          It&rsquo;s coffee time!
+        </i>
+      </h2>
+      <div class="social">
+        <a href="#contact">
+          &Xopf;
+        </a>
+        <a href="#contact">
+          ◎
+        </a>
+        <a href="#contact">
+          f
+        </a>
+      </div>
+    </div>
+    <div>
+      <h3>
+        Contact us
+      </h3>
+      <p>
+        &target; &nbsp;8558 Green Rd., LA
+      </p>
+      <p>
+        ♧ &nbsp;+1 (603) 555-0123
+      </p>
+      <p>
+        ◷ &nbsp;Mon&ndash;Sat: 9:00&ndash;23:00
+      </p>
+      <a href="#home">
+        Back to top &uarr;
+      </a>
+    </div>
+  </footer>
+  <dialog id="details">
+    <button aria-label="Close" class="close" id="close">
+      &times;
+    </button>
+    <img alt="" id="detailImg" />
+    <div class="detailText">
+      <h2 id="detailName">
+      </h2>
+      <p id="detailDesc">
+      </p>
+      <label>
+        Size &mdash; choose one
+      </label>
+      <div class="choices size-choices" id="sizes">
+        <button class="selected" data-add="0" data-size="S">
+          <span class="size-letter">
+            S
+          </span>
+          <span class="size-detail">
+            200 ml
+          </span>
+        </button>
+        <button data-add=".75" data-size="M">
+          <span class="size-letter">
+            M
+          </span>
+          <span class="size-detail">
+            300 ml
+          </span>
+        </button>
+        <button data-add="1.5" data-size="L">
+          <span class="size-letter">
+            L
+          </span>
+          <span class="size-detail">
+            400 ml
+          </span>
+        </button>
+      </div>
+      <label>
+        Additives &mdash; optional
+      </label>
+      <div class="choices add-ons">
+        <button data-addon=".25">
+          Sugar
+        </button>
+        <button data-addon=".25">
+          Cinnamon
+        </button>
+        <button data-addon=".5">
+          Syrup
+        </button>
+      </div>
+      <div class="total">
+        Total:
+        <b id="total">
+          $5.50
+        </b>
+      </div>
+      <p class="note">
+        The total price depends on the selected size and additives.
+      </p>
+      <button class="button" id="addOrder">
+        Add to my order ＋
+      </button>
+    </div>
+  </dialog>
+  <div class="toast" id="toast">
+  </div>
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
